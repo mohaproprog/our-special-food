@@ -1,0 +1,138 @@
+:root{
+    ---main-color:rgb(40, 178, 224);
+    ---secondry-color: rgb(18, 17, 15);
+}
+
+.all{
+    
+    height: 100vh;
+    place-content: center;
+}
+
+.all h1{
+    text-align: center;
+    font-size: 36px;
+    color: rgb(40, 178, 224);
+    font-weight: 600;
+
+}
+.all p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.img1{
+    background-image: url(./images/MSHRoastPotatoes2_2048x2048.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    
+
+}
+ 
+/* img2 */
+.img2{
+    background-image: url(./images/shopping.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    
+
+}
+/* img3 */
+.img3{
+    background-image: url(./images/MSHRoastPotatoes2_2048x2048.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    
+
+}
+.price-dollar{
+    background-color: var(---main-color);
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width: 50px;
+    height: 50px;
+}
+.price-dollar p{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.price{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    border-top: 10px solid white ;
+    border-radius: 10px;
+    position: relative;
+}
+.price p{
+    color: white;
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.price p i{
+    margin-right: 10px;
+}
+.price-in{
+    width: 150px;
+    height: 55px;
+    position: absolute;
+    background-color:var(---secondry-color);
+    top: -65px;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-top-right-radius: 10px ;
+
+
+}
+
+.buy{
+    display: inline;
+}
+.buy i{
+    color: var(---main-color);
+    font-size: 1rem;
+}
+
+.buy button{
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 5px 8px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+
+.special-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}

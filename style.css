@@ -50,7 +50,7 @@
 }
 /* img3 */
 .img3{
-    background-image: url(./images/MSHRoastPotatoes2_2048x2048.webp);
+    background-image: url(./images/shopping\ \(1\).webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,7 +88,8 @@
     color: white;
     text-wrap: wrap;
     text-align: center;
-    font-size: 1.5rem;
+    margin: 10px;
+    font-size: 1.3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .price p i{
@@ -99,13 +100,15 @@
     height: 55px;
     position: absolute;
     background-color:var(---secondry-color);
-    top: -65px;
+    top: -64.5px;
     border-top: 10px solid white;
     border-right: 10px solid white;
     border-top-right-radius: 10px ;
 
 
 }
+
+
 
 .buy{
     display: inline;
@@ -135,4 +138,18 @@
     gap: 5%;
     margin-top: 100px;
     flex-wrap: wrap;
+}
+
+@media (max-width:768px){
+    .special-col{
+        margin-bottom:25px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+
+    .special-col{
+        margin-bottom: 25px;
+    }
 }
